@@ -14,23 +14,7 @@ export class App extends Component {
 
   };
 
-  countTotalGood = () => {
-    this.setState(prevState => ({
-      good: prevState.good + 1,
-  }))
-  };
-
-  countTotalNeutral = () => {
-    this.setState(prevState => ({
-      neutral: prevState.neutral + 1,
-  }))
-  };
-
-  countTotalBad = () => {
-    this.setState(prevState => ({
-      bad: prevState.bad + 1,
-  }))
-  };
+  
 
 countTotalFeedback = () => {
   const { good, neutral, bad } = this.state;
